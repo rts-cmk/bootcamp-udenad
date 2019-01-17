@@ -2,7 +2,7 @@
 // "DOMContentLoaded" event'en sørger for, at Javascriptet først kører når hele HTML dokumentet er indlæst
 document.addEventListener ("DOMContentLoaded", () => {
 
-	let count = 0;             // Opretter/definerer en variabel og lægger tallet 0 ned i.
+	let count = 5;             // Opretter/definerer en variabel og lægger tallet 5 ned i.
 	updateCountText ();        // Kalder funktionen  (at "kalde" betyder at udføre, eksekvere, afvikle, osv).
 	
 
@@ -30,9 +30,9 @@ document.addEventListener ("DOMContentLoaded", () => {
 	});
 
 
-	// Opretter/definerer en funktion
+	// Opretter/definerer en funktion, som opdaterer brugerfladen
 	function updateCountText () {
-		// Erstatter HTML elementets indhold med variablens værdi
+		// Erstatter HTML elementets indhold med count variablens værdi
 		document.querySelector ("#text-count").innerHTML = count;
 	}
 
