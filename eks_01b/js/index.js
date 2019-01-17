@@ -1,5 +1,5 @@
 
-// Forskellen på eksempel 01 og 01b er, at 01b bruger ekstra variabler (til minimum- og maksimumværdierne).
+// Forskellen på eksempel 01a og 01b er, at 01b bruger ekstra variabler (til minimum- og maksimumværdierne).
 // Læg mærke til, at 0 og 10 kun er nævnt én gang nu. Dette er en smartere måde at kode på,
 // da det gør det nemmere at justere værdierne.
 
