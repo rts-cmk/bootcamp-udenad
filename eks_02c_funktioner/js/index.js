@@ -19,7 +19,7 @@ document.addEventListener ("DOMContentLoaded", () => {
 		return "Hej med dig, " + navn;
 
 		// Man kan også opbygge en string således (læg mærke til backticks)
-		return `Hej med dig, ${navn}`;
+		// return `Hej med dig, ${navn}`;
 	}
 
 }); // Afslutter: DOMContentLoaded
