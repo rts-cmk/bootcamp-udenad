@@ -14,7 +14,7 @@ document.addEventListener ("DOMContentLoaded", () => {
 	console.log (hilsen);
 	
 
-	// Definerer en funktion, som tager imod ét parameter: navn. Funktionen returnerer ikke noget
+	// Definerer en funktion, som tager imod ét parameter: navn. Funktionen returnerer en string
 	function hils (navn) {
 		return "Hej med dig, " + navn;
 
