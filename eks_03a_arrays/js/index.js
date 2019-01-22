@@ -13,6 +13,9 @@ document.addEventListener ("DOMContentLoaded", () => {
 	// Tager fat i <ul> elementet
 	let listElement = document.querySelector ("#liste");
 
+	// [Udenad?]: Du behøver ikke at kunne skrive forEach'en udenad,
+	// men du skal kunne fortælle os, at det ville være oplagt at bruge
+	// forEach til at gøre noget med hvert element inden i et array
 	navne.forEach ((navn) => {
 		// Husk at bruge += så den tilføjer et navn i stedet for at erstatte hele indholdet
 		listElement.innerHTML += "<li>" + navn + "</li>";
