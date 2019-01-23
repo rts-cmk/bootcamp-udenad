@@ -1,0 +1,79 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Verdana;
+	font-size: 13px;
+	margin: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+	label em {
+		font-weight: normal;
+		color: #aaa;
+		padding-left: 20px;
+	}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+hr {
+	margin: 30px 0px;
+}
+
+h3 {
+	margin: 20px 0px;
+}
+
+#aktuelle-person-farve {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #333;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+}
+
+#btn-person-forrige, #btn-person-naeste {
+	width: 20px;
+	height: 20px;
+}
+
+#alle-personer {
+	margin-top: 20px;
+}
+
+	#alle-personer .row {
+		margin-bottom: 5px;
+	}
+
+		#alle-personer .farve {
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			border: 1px solid #aaa;
+			border-radius: 3px;
+			vertical-align: middle;
+			margin-right: 10px;
+		}
+
+	#alle-personer .aktuelle-person {
+		font-weight: bold !important;
+	}
+
+.opgave-besked {
+	color: red;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
